@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVariation>
+  <variationData>
+    <Item>
+      <modelName>supervolito</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+			      0 
+            10 
+            4 
+            156
+		      </indices>
+          <liveries />
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_supervolito_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities />
+      </plateProbabilities>
+      <lightSettings value="18" />
+      <sirenSettings value="0" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>
