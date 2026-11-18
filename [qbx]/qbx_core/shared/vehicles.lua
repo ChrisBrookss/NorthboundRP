@@ -8124,5 +8124,6 @@ return {
         category = 'police',
         type = 'automobile',
         hash = `strikermark`,
+    },
     
 }
