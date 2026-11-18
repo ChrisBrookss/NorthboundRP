@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVariation>
+  <variationData>
+	   <Item>
+         <modelName>firetruk2</modelName>
+         <colors>
+            <Item>
+               <indices content="char_array">
+                  <Item value="134" />
+                  <Item value="28" />
+                  <Item value="134" />
+                  <Item value="112" />
+               </indices>
+               <liveries>
+                  <Item value="true" />
+                  <Item value="true" />
+               </liveries>
+            </Item>
+						<Item>
+               <indices content="char_array">
+                  <Item value="134" />
+                  <Item value="28" />
+                  <Item value="134" />
+                  <Item value="89" />
+               </indices>
+               <liveries>
+                  <Item value="true" />
+                  <Item value="false" />
+               </liveries>
+            </Item>
+         </colors>
+         <kits />
+         <windowsWithExposedEdges />
+         <plateProbabilities>
+            <Probabilities>
+               <Item>
+                  <Name>standard white</Name>
+                  <Value value="30" />
+               </Item>
+               <Item>
+                  <Name>standard white</Name>
+                  <Value value="40" />
+               </Item>
+               <Item>
+                  <Name>standard white</Name>
+                  <Value value="30" />
+               </Item>
+            </Probabilities>
+         </plateProbabilities>
+         <lightSettings value="22" />
+         <sirenSettings value="29" />
+      </Item>
+  </variationData>
+</CVehicleModelInfoVariation>
