@@ -8122,7 +8122,7 @@ return {
         model = 'strikermark',
         price = 0,
         category = 'police',
-        type = 'automobile',
+        type = 'car',
         hash = `strikermark`,
     },
     

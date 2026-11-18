@@ -9,7 +9,7 @@
 return {
     autoRespawn = false,   -- True == auto respawn cars that are outside into your garage on script restart, false == does not put them into your garage and players have to go to the impound
     warpInVehicle = false, -- If false, player will no longer warp into vehicle upon taking the vehicle out.
-    doorsLocked = true, -- If true, the doors will be locked upon taking the vehicle out.
+    doorsLocked = false, -- If true, the doors will be locked upon taking the vehicle out.
     distanceCheck = 5.0, -- The distance that needs to bee clear to let the vehicle spawn, this prevents vehicles stacking on top of each other
     calculateImpoundFee = require 'server.default-calculate-impound-fee',
     logging = {
@@ -91,8 +91,8 @@ return {
                         sprite = 357,
                         color = 3,
                     },
-                    coords = vec4(-1160.46, -741.04, 19.95, 41.26),
-                    spawn = vec4(-1165.38, -747.65, 18.94, 40.45),
+                    coords = vec4(-1144.04, -745.18, 18.71, 104.65),
+                    spawn = vec4(-1145.19, -745.46, 18.67, 104.45),
                 }
             },
         },
