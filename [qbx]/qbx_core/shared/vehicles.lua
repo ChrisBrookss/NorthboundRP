@@ -8111,5 +8111,18 @@ return {
         category = 'suvs',
         type = 'automobile',
         hash = `woodlander`,
-    }
+    },
+
+    ----------NorthboundRP Vehicles------------
+
+    -----Police Vehicles-----
+    strikermark = {
+        name = 'strikermark',
+        brand = 'Striker',
+        model = 'strikermark',
+        price = 0,
+        category = 'police',
+        type = 'automobile',
+        hash = `strikermark`,
+    
 }
