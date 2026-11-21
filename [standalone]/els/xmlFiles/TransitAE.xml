@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vcfroot Description="EmergencyLS | xml Configuration" Author="Infinity Studios" >
+
+	<EOVERRIDE>	
+		<Extra01 IsElsControlled="true" AllowEnvLight="true" Color="amber" OffsetX="-0.70" OffsetY="-0.20" OffsetZ="0.50" /> 
+		<Extra02 IsElsControlled="true" AllowEnvLight="true" Color="amber" OffsetX="-0.25" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra03 IsElsControlled="true" AllowEnvLight="true" Color="amber" OffsetX="0.25" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra04 IsElsControlled="true" AllowEnvLight="true" Color="amber" OffsetX="0.70" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra05 IsElsControlled="true" AllowEnvLight="true" Color="white" OffsetX="-0.70" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra06 IsElsControlled="true" AllowEnvLight="true" Color="white" OffsetX="0.70" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra07 IsElsControlled="true" AllowEnvLight="true" Color="amber" OffsetX="-0.40" OffsetY="-0.80" OffsetZ="0.40" />
+		<Extra08 IsElsControlled="true" AllowEnvLight="true" Color="amber" OffsetX="0.00" OffsetY="-0.80" OffsetZ="0.40" />
+		<Extra09 IsElsControlled="true" AllowEnvLight="true" Color="amber" OffsetX="0.40" OffsetY="-0.80" OffsetZ="0.40" />
+		<Extra10 IsElsControlled="true" AllowEnvLight="true" Color="amber" OffsetX="0.40" OffsetY="-0.80" OffsetZ="0.40" />
+		<Extra11 IsElsControlled="false" />
+		<Extra12 IsElsControlled="false" />
+	</EOVERRIDE>
+
+	<SOUNDS>
+		<MainHorn InterruptsSiren="true" AudioString="SIRENS_AIRHORN" />
+		<ManTone1 AllowUse="true" AudioString="" />
+		<ManTone2 AllowUse="true" AudioString="" />
+		<SrnTone1 AllowUse="true" AudioString="" />
+		<SrnTone2 AllowUse="true" AudioString="" />
+		<SrnTone3 AllowUse="true" AudioString="" />
+		<SrnTone4 AllowUse="true" AudioString="" />
+		<NineMode  AllowUse="false" />
+	</SOUNDS>
+
+	<PATTERN>
+		<PRIMARY>
+			<Flash01 Duration="50" Extras="01,02" />
+			<Flash02 Duration="50" Extras="" />
+			<Flash03 Duration="50" Extras="01,02" />
+			<Flash04 Duration="50" Extras="" />
+			<Flash05 Duration="50" Extras="01,02" />
+			<Flash06 Duration="180" Extras="" />
+			<Flash07 Duration="50" Extras="03,04" />
+			<Flash08 Duration="50" Extras="" />
+			<Flash09 Duration="50" Extras="03,04" />
+			<Flash10 Duration="50" Extras="" />
+			<Flash11 Duration="50" Extras="03,04" />
+			<Flash12 Duration="180" Extras="" />
+
+		</PRIMARY>
+		<SECONDARY> 
+			<Flash01 Duration="600000" Extras="" />
+			<Flash02 Duration="600000" Extras="" />
+			<Flash03 Duration="600000" Extras="" />
+			<Flash04 Duration="600000" Extras="" />
+		</SECONDARY>
+		<REARREDS>
+			<Flash01 Duration="50" Extras="10" />
+			<Flash02 Duration="50" Extras="" />
+			<Flash03 Duration="50" Extras="10" />
+			<Flash04 Duration="50" Extras="" />
+			<Flash05 Duration="50" Extras="10" />
+			<Flash06 Duration="180" Extras="" />
+			<Flash07 Duration="50" Extras="10" />
+			<Flash08 Duration="50" Extras="" />
+			<Flash09 Duration="50" Extras="10" />
+			<Flash10 Duration="50" Extras="" />
+			<Flash11 Duration="50" Extras="10" />
+			<Flash12 Duration="180" Extras="" />
+		</REARREDS>
+	</PATTERN>
+</vcfroot>

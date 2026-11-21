@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<vcfroot Description="EmergencyLS | xml Configuration" Author="Infinity Studios" >
+
+	<EOVERRIDE>	
+		<Extra01 IsElsControlled="true" AllowEnvLight="true" Color="Amber" OffsetX="-0.70" OffsetY="-0.20" OffsetZ="0.50" /> 
+		<Extra02 IsElsControlled="true" AllowEnvLight="true" Color="Amber" OffsetX="-0.25" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra03 IsElsControlled="true" AllowEnvLight="true" Color="Amber" OffsetX="0.25" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra04 IsElsControlled="true" AllowEnvLight="true" Color="Amber" OffsetX="0.70" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra05 IsElsControlled="true" AllowEnvLight="true" Color="Amber" OffsetX="-0.70" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra06 IsElsControlled="true" AllowEnvLight="true" Color="Amber" OffsetX="0.70" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra07 IsElsControlled="true" AllowEnvLight="true" Color="White" OffsetX="-0.40" OffsetY="-0.80" OffsetZ="0.40" />
+		<Extra08 IsElsControlled="true" AllowEnvLight="true" Color="White" OffsetX="0.00" OffsetY="-0.80" OffsetZ="0.40" />
+		<Extra09 IsElsControlled="true" AllowEnvLight="true" Color="White" OffsetX="0.40" OffsetY="-0.80" OffsetZ="0.40" />
+		<Extra10 IsElsControlled="false" />
+		<Extra11 IsElsControlled="false" />
+		<Extra12 IsElsControlled="false" />
+	</EOVERRIDE>
+
+	<PATTERN>
+		<PRIMARY>
+			<Flash01 Duration="50" Extras="" />
+			<Flash02 Duration="90" Extras="" />
+			<Flash03 Duration="50" Extras="" />
+			<Flash04 Duration="90" Extras="" />
+			<Flash05 Duration="50" Extras="" />
+			<Flash06 Duration="90" Extras="" />
+			<Flash07 Duration="50" Extras="" />
+			<Flash08 Duration="90" Extras="" />
+
+		</PRIMARY>
+		<SECONDARY> 
+			<Flash01 Duration="280" Extras="" />
+			<Flash02 Duration="160" Extras="" />
+			<Flash03 Duration="280" Extras="" />
+			<Flash04 Duration="160" Extras="" />
+		</SECONDARY>
+		<REARREDS>
+			<Flash01 Duration="200" Extras="" />
+			<Flash02 Duration="160" Extras="" />
+			<Flash03 Duration="200" Extras="" />
+			<Flash04 Duration="160" Extras="" />
+		</REARREDS>
+	</PATTERN>
+</vcfroot>
